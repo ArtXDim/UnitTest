@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>HW2</artifactId>
+    <artifactId>HW1</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <dependencies>
         <!-- Другие зависимости -->
         <!--        AssertJ предоставляет множество методов для
@@ -63,16 +62,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.3</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.jacoco</groupId>
             <artifactId>org.jacoco.core</artifactId>
-            <version>0.8.7</version> <!-- Укажите актуальную версию JaCoCo -->
+            <version>0.8.4</version> <!-- Укажите актуальную версию JaCoCo -->
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -84,12 +76,13 @@
 
 
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.7</version> <!-- Укажите актуальную версию JaCoCo -->
+                <version>0.8.4</version>
                 <executions>
                     <execution>
                         <goals>
